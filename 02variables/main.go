@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// Capitalized names are exported (visible outside the package) meaning
+// they are public variables accessible from other packages
 const JwtToken string = "projecthanif"
 
 // can't use := outside of a function
